@@ -1,0 +1,41 @@
+{
+	"box_set": [
+    	{
+			"green_box_set": [{
+					"set": [{
+						"box_val": ["G-A", "G-B"]
+					}]
+				},
+				{
+					"set": [{
+						"box_val": ["G-C", "G-D"]
+					}]
+				},
+				{
+					"set": [{
+						"box_val": ["G-E", "G-F"]
+					}]
+				}
+			]
+		},
+		{
+			"blue_box_set": [
+				{
+				"set": [{
+					"box_val": ["B-A", "B-B"]
+				}]
+				},
+				{
+					"set": [{
+						"box_val": ["B-C", "B-D"]
+					}]
+				},
+				{
+					"set": [{
+						"box_val": ["B-E", "B-F"]
+					}]
+				}
+			]
+		}
+	]
+}

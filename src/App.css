@@ -1,0 +1,136 @@
+body {
+  box-sizing: border-box
+}
+
+.App {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(171, 171, 240);
+  margin: 5%;
+}
+
+.area_background {
+  display: flex;
+  float: left;
+  width: 49%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.green-box-color {
+  background: #E3FEDC;
+}
+
+.blue-box-color {
+  background: #DCF8FE;
+}
+
+.g-box-color {
+  background: #ffffff;
+}
+
+.parent-container {
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  width: 45%;
+  box-shadow: 1px 2px 4px #888888;
+  height: 3rem;
+  float: left;
+  margin: 3% auto;
+  cursor: pointer;
+}
+
+h1 {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #312725;
+  font-family: 'Monseratt', sans-serif;
+  font-size: 0.8rem;
+  width: 100%;
+  pointer-events: none;
+}
+
+.vertical-line {
+  border-left: 1px solid #312725;
+  height: 165px;
+    float: left;
+    display: inline;
+    margin-bottom: 3%;
+}
+
+.draggable-area {
+  width: 100%;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.green-hr {
+  width: 50%;
+  height: 4px;
+  background-color: rgb(136, 252, 165);
+  border: none;
+}
+
+.blue-hr {
+  width: 50%;
+  height: 4px;
+  background-color: rgb(95, 95, 241);
+  border: none;
+}
+
+.cross {
+  vertical-align: middle;
+  line-height: 14;
+}
+
+.equal {
+  vertical-align: middle;
+  line-height: 14;
+}
+
+.result_box {
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 1px 2px 4px #888888;
+  height: 8rem;
+  float: left;
+  margin: 4%;  
+  background-color: rgb(255, 200, 152);
+}
+
+.draggable-content {
+  width: 70%;
+}
+
+.green-border {
+  border: 3px #9ad6a8 solid;
+}
+
+.blue-border {
+  border: 3px #42A9CA solid;
+}
+
+.isShowX {
+  display: none;
+  font-size: 3rem;
+  color: red;
+  padding: 0;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.result_txt{
+  width: 40px;
+  float: left;
+  position: relative;
+  top: 30%;
+  left: 30%;
+  right: 0;
+  bottom: 0;
+}
